@@ -1,0 +1,33 @@
+﻿@using CourseWork.ViewModels
+@model GamesListViewModel
+
+@if (Model == null)
+{
+    <p>Модель данных не загружена.</p>
+}
+else
+{
+    <h1>Все игры</h1>
+    <h3>@(string.IsNullOrEmpty(Model.CurrentCategory) ? "Все категории" : Model.CurrentCategory)</h3>
+
+    @if (Model.AllGames == null || !Model.AllGames.Any())
+    {
+        <p>Нет доступных игр в данной категории.</p>
+    }
+    else
+    {
+        <div class="row mt-5 mb-2">
+            @foreach (var game in Model.AllGames)
+            {
+                @if (game == null)
+                {
+                    <p>Ошибка: данные об игре отсутствуют.</p>
+                }
+                else
+                {
+                    @await Html.PartialAsync("AllGames", game)
+                }
+            }
+        </div>
+    }
+}

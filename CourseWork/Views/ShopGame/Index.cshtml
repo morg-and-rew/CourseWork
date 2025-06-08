@@ -1,0 +1,29 @@
+﻿@model ShopGameViewModel
+
+<div class="container">
+    @if (Model?.ShopGame?.ListShopItems == null || !Model.ShopGame.ListShopItems.Any())
+    {
+        <p class="text-muted">Корзина пуста.</p>
+    }
+    else
+    {
+        @foreach (var el in Model.ShopGame.ListShopItems)
+        {
+            if (el?.Game == null)
+            {
+                <div class="alert alert-danger mt-3">
+                    Ошибка: данные об игре отсутствуют.
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-warning mt-3">
+                    <b>Игра:</b> @el.Game.Name<br />
+                    <b>Цена:</b> @el.Game.Price.ToString("c")
+                </div>
+            }
+        }
+
+        <a class="btn btn-danger mb-5" asp-controller="Order" asp-action="Checkout">Оплатить</a>
+    }
+</div>

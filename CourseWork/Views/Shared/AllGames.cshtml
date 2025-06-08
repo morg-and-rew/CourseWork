@@ -1,0 +1,25 @@
+﻿@model Game
+
+@if (Model == null)
+{
+    <div class="col-lg-4">
+        <p>Информация об игре недоступна.</p>
+    </div>
+}
+else
+{
+    <div class="col-lg-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h2 class="card-title">@Model.Name</h2>
+                <p class="card-text">Цена: @Model.Price.ToString("c")</p>
+                <p>
+                    <a class="btn btn-warning"
+                       asp-controller="ShopGame"
+                       asp-action="AddToGame"
+                       asp-route-id="@Model.Id">Добавить в корзину</a>
+                </p>
+            </div>
+        </div>
+    </div>
+}

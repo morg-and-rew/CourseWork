@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\CourseWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|c:\\users\\andre\\source\\repos\\coursework\\coursework\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|c:\\users\\andre\\source\\repos\\coursework\\coursework\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|c:\\users\\andre\\source\\repos\\coursework\\coursework\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|c:\\users\\andre\\source\\repos\\coursework\\coursework\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|c:\\users\\andre\\source\\repos\\coursework\\coursework\\controllers\\shopgamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\controllers\\shopgamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|c:\\users\\andre\\source\\repos\\coursework\\coursework\\data\\interface\\iallgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F95A4BF5-BCBE-4C20-B531-567422ABE6A3}|CourseWork\\CourseWork.csproj|solutionrelative:coursework\\data\\interface\\iallgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CourseWork\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:52:01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:45:45.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:45:45.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:45:43.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopGameController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\ShopGameController.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Controllers\\ShopGameController.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Controllers\\ShopGameController.cs",
+              "RelativeToolTip": "CourseWork\\Controllers\\ShopGameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:45:41.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAllGame.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Data\\Interface\\IAllGame.cs",
+              "RelativeDocumentMoniker": "CourseWork\\Data\\Interface\\IAllGame.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\CourseWork\\CourseWork\\Data\\Interface\\IAllGame.cs",
+              "RelativeToolTip": "CourseWork\\Data\\Interface\\IAllGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:45:19.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

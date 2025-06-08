@@ -1,0 +1,31 @@
+﻿@model HomeViewModel
+
+@if (Model == null)
+{
+    <p>Модель данных не загружена.</p>
+}
+else
+{
+    <h1>Лучшие игры</h1>
+
+    @if (Model.FavoriteGames == null || !Model.FavoriteGames.Any())
+    {
+        <p>Нет доступных игр в списке избранных.</p>
+    }
+    else
+    {
+        <div class="row mt-5 mb-2">
+            @foreach (var game in Model.FavoriteGames)
+            {
+                @if (game == null)
+                {
+                    <p>Ошибка: данные об игре отсутствуют.</p>
+                }
+                else
+                {
+                    @await Html.PartialAsync("AllGames", game)
+                }
+            }
+        </div>
+    }
+}
